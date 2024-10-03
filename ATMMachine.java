@@ -1,11 +1,7 @@
-// package ATMMachine;
-
 import java.util.Scanner;
-
 class  ATM{
     float Balance;
-    int PIN = 2589;
-
+    int PIN = 2023;
     public void checkPin(){
         System.out.println("Enter your pin");
         Scanner sc = new Scanner(System.in);
